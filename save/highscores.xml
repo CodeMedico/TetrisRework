@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<ArrayOfLeaderBoardData xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <LeaderBoardData>
+    <Score>12220</Score>
+    <Name>CodeMedico</Name>
+  </LeaderBoardData>
+  <LeaderBoardData>
+    <Score>11010</Score>
+    <Name>Medico</Name>
+  </LeaderBoardData>
+  <LeaderBoardData>
+    <Score>2670</Score>
+    <Name>Makcum</Name>
+  </LeaderBoardData>
+  <LeaderBoardData>
+    <Score>2270</Score>
+    <Name>CodeMedico</Name>
+  </LeaderBoardData>
+  <LeaderBoardData>
+    <Score>650</Score>
+    <Name>CodeMedico</Name>
+  </LeaderBoardData>
+  <LeaderBoardData>
+    <Score>290</Score>
+    <Name>CodeMedico</Name>
+  </LeaderBoardData>
+  <LeaderBoardData>
+    <Score>260</Score>
+    <Name />
+  </LeaderBoardData>
+  <LeaderBoardData>
+    <Score>250</Score>
+    <Name>codemedicooo</Name>
+  </LeaderBoardData>
+  <LeaderBoardData>
+    <Score>180</Score>
+    <Name>babaka</Name>
+  </LeaderBoardData>
+  <LeaderBoardData>
+    <Score>160</Score>
+  </LeaderBoardData>
+</ArrayOfLeaderBoardData>
