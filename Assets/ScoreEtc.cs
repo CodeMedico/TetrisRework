@@ -9,13 +9,13 @@ public class ScoreEtc : MonoBehaviour
     public TextMeshProUGUI scoreText;
     public TextMeshProUGUI linesText;
     public TextMeshProUGUI difficultyText;
-    public GameObject buba;
+    public GameObject bricks;
     private Lines Linesscript;
 
     void Start()
     {
-        buba = GameObject.Find("buba");
-        Linesscript = buba.GetComponent<Lines> ();
+        bricks = GameObject.Find("buba");
+        Linesscript = bricks.GetComponent<Lines> ();
     }
 
     public void UpdateData()
