@@ -5,7 +5,7 @@ using UnityEngine;
 public class Spawner : MonoBehaviour
 {
     [SerializeField] private GameObject[] prefabs;
-    [SerializeField] private GameObject buba;
+    [SerializeField] private GameObject bricks;
     [SerializeField] private GameObject EventsSystem;
     [SerializeField] private GameObject NextPlace;
     [SerializeField] private GameObject CanvasGame;
@@ -24,8 +24,8 @@ public class Spawner : MonoBehaviour
     void Start()
     {
         nextPlacePosition = new Vector3(NextPlace.transform.position.x, NextPlace.transform.position.y, 0);
-        buba = GameObject.Find("buba");
-        bubablock = buba.GetComponent<Lines>();
+        bricks = GameObject.Find("buba");
+        bubablock = bricks.GetComponent<Lines>();
         ECscript = EventsSystem.GetComponent<EventsControl>();
         scoreEtcscript = CanvasGame.GetComponent<ScoreEtc>();
         if (NextFigure == null)
