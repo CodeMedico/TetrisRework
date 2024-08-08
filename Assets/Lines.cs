@@ -13,7 +13,6 @@ public class Lines : MonoBehaviour
     private EventsControl EventsControlScript;
 
     private List<List<Transform>> lines = new List<List<Transform>>();
-    private int axis = 1;
     private float[] Ypos;
     private bool[] LineIs;
     private Transform[] children;
